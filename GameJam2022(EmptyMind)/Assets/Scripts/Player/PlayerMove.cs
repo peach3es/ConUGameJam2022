@@ -6,6 +6,7 @@ public class PlayerMove : MonoBehaviour
 {
     // Character controller attributes
     public CharacterController2D controller;
+    public Animator animator;
 
     public float MovementSpeed = 40f;
 
@@ -26,11 +27,18 @@ public class PlayerMove : MonoBehaviour
         // ! MUST BE RAW to avoid slipping
         horizontalInput = Input.GetAxisRaw("Horizontal");
 
+        animator.SetFloat("Speed", Mathf.Abs(horizontalInput));
+
         // Check for jumping
         if (Input.GetButtonDown("Jump"))
         {
             jumping = true;
+            animator.SetBool("isJumping", true);
         }
+    }
+
+    public void OnLanding(){
+        animator.SetBool("isJumping", false);
     }
 
     // Update is called once per frame
