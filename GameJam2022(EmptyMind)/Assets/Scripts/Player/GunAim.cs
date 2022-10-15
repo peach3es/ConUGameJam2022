@@ -7,13 +7,15 @@ public class GunAim : MonoBehaviour
     public Camera cam;
 
     public Transform player;
+
+    public Transform rotatePoint;
     
     Vector3 gunPosition;
 
     // Update is called once per frame
     void Update()
     {
-        gunPosition = cam.WorldToScreenPoint(transform.position);
+        gunPosition = cam.WorldToScreenPoint(rotatePoint.position);
         Vector3 lookDir = Input.mousePosition - gunPosition;
         float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg;
 
