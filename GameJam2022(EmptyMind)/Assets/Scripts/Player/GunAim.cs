@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class GunAim : MonoBehaviour
 {
+    public Camera cam;
+
     public Transform player;
 
     public Transform rotatePoint;
@@ -13,7 +15,7 @@ public class GunAim : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        gunPosition = Camera.main.WorldToScreenPoint(rotatePoint.position);
+        gunPosition = cam.WorldToScreenPoint(rotatePoint.position);
         Vector3 lookDir = Input.mousePosition - gunPosition;
         float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg;
 
@@ -36,7 +38,7 @@ public class GunAim : MonoBehaviour
         {
             Vector3 playerScale = player.localScale;
             Vector3 gunScale = transform.localScale;
-            if (playerScale.x < 0) 
+            if (playerScale.x <= 0) 
             {
                 // Flip player on x, gun on y
                 playerScale.x *= -1;
