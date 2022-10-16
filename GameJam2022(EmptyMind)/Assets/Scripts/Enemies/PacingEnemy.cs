@@ -8,7 +8,7 @@ public class PacingEnemy : MonoBehaviour
     public bool isPatrolling;
     private bool mustFlip;
 
-    public Collider2D wallCollider;
+    public Transform wallChecker;
 
     public Rigidbody2D enemyRigidbody;
 
@@ -26,9 +26,10 @@ public class PacingEnemy : MonoBehaviour
     {
         if (isPatrolling)
         {
-            if (mustFlip || wallCollider.IsTouchingLayers(platformLayer.value))
+            if (mustFlip)
             {
                 Flip();
+                mustFlip = false;
             }
 
             enemyRigidbody.velocity = new Vector2(patrolSpeed * Time.fixedDeltaTime, enemyRigidbody.velocity.y);
@@ -39,7 +40,11 @@ public class PacingEnemy : MonoBehaviour
     {
         if (isPatrolling)
         {
-            mustFlip = !Physics2D.OverlapCircle(groundChecker.position, 0.1f, platformLayer.value);
+            // Either ground is empty or about to hit a wall
+            if (!Physics2D.OverlapCircle(groundChecker.position, 0.1f, platformLayer.value) || Physics2D.OverlapCircle(wallChecker.position, 0.1f, platformLayer.value))
+            {
+                mustFlip = true;
+            }
         }
     }
 
