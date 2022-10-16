@@ -8,14 +8,26 @@ public class Fire : MonoBehaviour
 
     public Transform bulletOrigin;
 
+
     // * Cooldowns
     public float timeBetweenShots;
     private bool canFire;
     private float timer;
+    
+     public AudioSource walkingSrc;
+     public AudioSource jumpingSrc;
+     public AudioSource GunSrc;
+     public AudioClip shootingclip;
+    
 
     // Start is called before the first frame update
     void Start()
     {
+        AudioSource[] allMyAudioSources = GetComponents<AudioSource>();
+        walkingSrc = allMyAudioSources[0];
+        jumpingSrc = allMyAudioSources[1];
+        GunSrc = allMyAudioSources[2];
+
         
     }
 
@@ -28,13 +40,20 @@ public class Fire : MonoBehaviour
             if (timer > timeBetweenShots) {
                 canFire = true;
                 timer = 0;
+                }
             }
-        }
+           
 
         // Fire!
         if (Input.GetButtonDown("Fire1") && canFire) {
+            GunSrc.PlayOneShot(shootingclip);
             canFire = false;
             Instantiate(bullet, bulletOrigin.position, bulletOrigin.rotation);
+            
+            
+            
+        
+            
         }
     }
 }
