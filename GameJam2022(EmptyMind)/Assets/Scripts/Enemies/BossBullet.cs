@@ -32,7 +32,7 @@ public class BossBullet : MonoBehaviour
     }
 
     void OnTriggerEnter2D(Collider2D collider) {
-        if (!collider.CompareTag("Enemy"))
+        if (!collider.CompareTag("Enemy") && !collider.CompareTag("Bullet"))
         {
             Health playerHealth = collider.GetComponent<Health>();
 

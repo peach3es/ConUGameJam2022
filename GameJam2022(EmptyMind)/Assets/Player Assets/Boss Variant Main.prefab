@@ -115,6 +115,7 @@ PrefabInstance:
     - {fileID: 2703081454017239571, guid: f3168126ee20140448fd3a61cda8fde4, type: 3}
     - {fileID: 2703081452799076630, guid: f3168126ee20140448fd3a61cda8fde4, type: 3}
     - {fileID: 2703081452799076629, guid: f3168126ee20140448fd3a61cda8fde4, type: 3}
+    - {fileID: 5566864784925144428, guid: f3168126ee20140448fd3a61cda8fde4, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: f3168126ee20140448fd3a61cda8fde4, type: 3}
 --- !u!1 &2788547900240572415 stripped
 GameObject:
@@ -144,6 +145,21 @@ GameObject:
 --- !u!4 &2788547899043994849 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2703081454017239569, guid: f3168126ee20140448fd3a61cda8fde4, type: 3}
+  m_PrefabInstance: {fileID: 230158333662267120}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6374978646332923635 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6578024599506049027, guid: f3168126ee20140448fd3a61cda8fde4, type: 3}
+  m_PrefabInstance: {fileID: 230158333662267120}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &5257013552507544729 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5459776934414738025, guid: f3168126ee20140448fd3a61cda8fde4, type: 3}
+  m_PrefabInstance: {fileID: 230158333662267120}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &990558934436869421 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 1048920704146994141, guid: f3168126ee20140448fd3a61cda8fde4, type: 3}
   m_PrefabInstance: {fileID: 230158333662267120}
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &2019146855442145347
@@ -215,3 +231,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   flashMaterial: {fileID: 2100000, guid: 08029fbd2936e3c41a079b4e3708bb6c, type: 2}
   duration: 0.125
+--- !u!114 &3357146632603994109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6374978646332923635}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 554772857faf8424184c9419eaaad6b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 946004937569459727, guid: 422a6011d0af40a4ba1873cf548486a4, type: 3}
+  bulletOrigin: {fileID: 5257013552507544729}
+  playerRigidbody: {fileID: 2788547900240572385}
+  ps: {fileID: 990558934436869421}
+  timeBetweenShots: 0.5
+  walkingSrc: {fileID: 0}
+  jumpingSrc: {fileID: 0}
+  GunSrc: {fileID: 0}
+  shootingclip: {fileID: 0}
+  recoilStrength: 10
+  horizontalRecoilMultiplier: 1.25
+  verticalRecoilMultiplier: 1
