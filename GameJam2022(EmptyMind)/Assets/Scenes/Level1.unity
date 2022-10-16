@@ -2529,6 +2529,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   followSpeed: 1.5
   target: {fileID: 581199529}
+  xOffSet: 1
   yOffSet: 5.5
 --- !u!20 &519420031
 Camera:
@@ -2581,7 +2582,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.23, y: -1.74, z: -20}
+  m_LocalPosition: {x: -26.83, y: -1.74, z: -20}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3460,11 +3461,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2703081452799076626, guid: f0628f88bb36c014e8f89ddf8eefdf12, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 24.05
+      value: -38.3
       objectReference: {fileID: 0}
     - target: {fileID: 2703081452799076626, guid: f0628f88bb36c014e8f89ddf8eefdf12, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.8
+      value: -6.61
       objectReference: {fileID: 0}
     - target: {fileID: 2703081452799076626, guid: f0628f88bb36c014e8f89ddf8eefdf12, type: 3}
       propertyPath: m_LocalPosition.z
