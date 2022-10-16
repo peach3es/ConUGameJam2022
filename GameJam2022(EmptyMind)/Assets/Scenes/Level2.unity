@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 39995766}
   - component: {fileID: 39995765}
   - component: {fileID: 39995768}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Grass
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -251,11 +251,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parallaxEffectX: 0
   parallaxEffectY: 0
---- !u!4 &40395460 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2703081452799076626, guid: f0628f88bb36c014e8f89ddf8eefdf12, type: 3}
-  m_PrefabInstance: {fileID: 707381865}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &49395931
 GameObject:
   m_ObjectHideFlags: 0
@@ -266,7 +261,7 @@ GameObject:
   m_Component:
   - component: {fileID: 49395932}
   - component: {fileID: 49395933}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Dirt (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -348,7 +343,7 @@ GameObject:
   m_Component:
   - component: {fileID: 56611552}
   - component: {fileID: 56611553}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rampdirt (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -431,7 +426,7 @@ GameObject:
   - component: {fileID: 85722442}
   - component: {fileID: 85722444}
   - component: {fileID: 85722443}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Grass (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -539,7 +534,7 @@ GameObject:
   m_Component:
   - component: {fileID: 90921659}
   - component: {fileID: 90921660}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Dirt (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1090,7 +1085,7 @@ GameObject:
   m_Component:
   - component: {fileID: 208855281}
   - component: {fileID: 208855282}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: dirt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1162,6 +1157,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!4 &214826496 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2703081452799076626, guid: f0628f88bb36c014e8f89ddf8eefdf12, type: 3}
+  m_PrefabInstance: {fileID: 1886633061}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &222123623
 GameObject:
   m_ObjectHideFlags: 0
@@ -1271,7 +1271,7 @@ GameObject:
   m_Component:
   - component: {fileID: 243444160}
   - component: {fileID: 243444159}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rampdirt (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1353,7 +1353,7 @@ GameObject:
   m_Component:
   - component: {fileID: 260205346}
   - component: {fileID: 260205347}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: dirt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1435,7 +1435,7 @@ GameObject:
   m_Component:
   - component: {fileID: 277120020}
   - component: {fileID: 277120021}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Grass
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1517,7 +1517,7 @@ GameObject:
   m_Component:
   - component: {fileID: 283324166}
   - component: {fileID: 283324167}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Dirt (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1763,7 +1763,7 @@ GameObject:
   m_Component:
   - component: {fileID: 304569887}
   - component: {fileID: 304569888}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: dirt (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1846,7 +1846,7 @@ GameObject:
   - component: {fileID: 332028236}
   - component: {fileID: 332028238}
   - component: {fileID: 332028237}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rampgrass (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2036,7 +2036,7 @@ GameObject:
   m_Component:
   - component: {fileID: 440449326}
   - component: {fileID: 440449327}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rampdirt (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2217,7 +2217,7 @@ GameObject:
   m_Component:
   - component: {fileID: 505429177}
   - component: {fileID: 505429178}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rampdirt (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2300,7 +2300,7 @@ GameObject:
   - component: {fileID: 520534975}
   - component: {fileID: 520534977}
   - component: {fileID: 520534976}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rampgrass (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2407,7 +2407,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 536834184}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Platform1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2445,7 +2445,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 537320742}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Platform1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2485,7 +2485,7 @@ GameObject:
   - component: {fileID: 543311060}
   - component: {fileID: 543311059}
   - component: {fileID: 543311061}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Dirt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2767,7 +2767,7 @@ GameObject:
   - component: {fileID: 655329141}
   - component: {fileID: 655329140}
   - component: {fileID: 655329139}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rampgrass (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2882,7 +2882,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4170206163340616024, guid: 47e70169a55c6c8409fa7bb99a5f7a35, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4170206163340616024, guid: 47e70169a55c6c8409fa7bb99a5f7a35, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2948,7 +2948,7 @@ GameObject:
   m_Component:
   - component: {fileID: 701112352}
   - component: {fileID: 701112353}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Grass
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3020,288 +3020,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1001 &707381865
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: -6044434632114757122, guid: f0628f88bb36c014e8f89ddf8eefdf12, type: 3}
-      propertyPath: m_Pitch
-      value: 0.93
-      objectReference: {fileID: 0}
-    - target: {fileID: -6044434632114757122, guid: f0628f88bb36c014e8f89ddf8eefdf12, type: 3}
-      propertyPath: m_Volume
-      value: 0.571
-      objectReference: {fileID: 0}
-    - target: {fileID: -6044434632114757122, guid: f0628f88bb36c014e8f89ddf8eefdf12, type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 8300000, guid: 535955f0d7df86141ada3515327cf056, type: 3}
-    - target: {fileID: 2703081452799076622, guid: f0628f88bb36c014e8f89ddf8eefdf12, type: 3}
-      propertyPath: MovementSpeed
-      value: 200
-      objectReference: {fileID: 0}
-    - target: {fileID: 2703081452799076623, guid: f0628f88bb36c014e8f89ddf8eefdf12, type: 3}
-      propertyPath: m_Name
-      value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 2703081452799076626, guid: f0628f88bb36c014e8f89ddf8eefdf12, type: 3}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2703081452799076626, guid: f0628f88bb36c014e8f89ddf8eefdf12, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -62.87
-      objectReference: {fileID: 0}
-    - target: {fileID: 2703081452799076626, guid: f0628f88bb36c014e8f89ddf8eefdf12, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -4.55
-      objectReference: {fileID: 0}
-    - target: {fileID: 2703081452799076626, guid: f0628f88bb36c014e8f89ddf8eefdf12, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2703081452799076626, guid: f0628f88bb36c014e8f89ddf8eefdf12, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2703081452799076626, guid: f0628f88bb36c014e8f89ddf8eefdf12, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2703081452799076626, guid: f0628f88bb36c014e8f89ddf8eefdf12, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2703081452799076626, guid: f0628f88bb36c014e8f89ddf8eefdf12, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2703081452799076626, guid: f0628f88bb36c014e8f89ddf8eefdf12, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2703081452799076626, guid: f0628f88bb36c014e8f89ddf8eefdf12, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2703081452799076626, guid: f0628f88bb36c014e8f89ddf8eefdf12, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2703081452799076627, guid: f0628f88bb36c014e8f89ddf8eefdf12, type: 3}
-      propertyPath: m_SortingOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2703081452799076629, guid: f0628f88bb36c014e8f89ddf8eefdf12, type: 3}
-      propertyPath: m_JumpForce
-      value: 400
-      objectReference: {fileID: 0}
-    - target: {fileID: 2703081454017239568, guid: f0628f88bb36c014e8f89ddf8eefdf12, type: 3}
-      propertyPath: m_SortingOrder
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: f0628f88bb36c014e8f89ddf8eefdf12, type: 3}
---- !u!1 &707381866 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2703081452799076623, guid: f0628f88bb36c014e8f89ddf8eefdf12, type: 3}
-  m_PrefabInstance: {fileID: 707381865}
-  m_PrefabAsset: {fileID: 0}
---- !u!82 &707381867
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 707381866}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 273f7f1e5dec1a04eb6154649f5baa0a, type: 3}
-  m_PlayOnAwake: 0
-  m_Volume: 0.1
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
---- !u!82 &707381868
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 707381866}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 6963107684307980654, guid: 8c2d0d7d274ce8e4b8787aa7ad8edede, type: 2}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
 --- !u!1 &715737040
 GameObject:
   m_ObjectHideFlags: 0
@@ -3312,7 +3030,7 @@ GameObject:
   m_Component:
   - component: {fileID: 715737041}
   - component: {fileID: 715737042}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Grass (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3395,7 +3113,7 @@ GameObject:
   - component: {fileID: 768980414}
   - component: {fileID: 768980416}
   - component: {fileID: 768980415}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rampgrass (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3586,7 +3304,7 @@ GameObject:
   - component: {fileID: 785071136}
   - component: {fileID: 785071138}
   - component: {fileID: 785071137}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Grass (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3694,7 +3412,7 @@ GameObject:
   m_Component:
   - component: {fileID: 805815190}
   - component: {fileID: 805815191}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: dirt (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3875,7 +3593,7 @@ GameObject:
   m_Component:
   - component: {fileID: 850586721}
   - component: {fileID: 850586722}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: dirt (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3956,7 +3674,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 879360210}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Platform3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3998,7 +3716,7 @@ GameObject:
   m_Component:
   - component: {fileID: 908543299}
   - component: {fileID: 908543300}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Grass (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4080,7 +3798,7 @@ GameObject:
   m_Component:
   - component: {fileID: 909081036}
   - component: {fileID: 909081035}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rampdirt (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4161,7 +3879,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 920962140}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SmallRamp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4347,7 +4065,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   followSpeed: 1.5
-  target: {fileID: 40395460}
+  target: {fileID: 214826496}
+  xOffSet: 1
   yOffSet: 5
 --- !u!81 &970031316
 AudioListener:
@@ -4477,7 +4196,7 @@ GameObject:
   m_Component:
   - component: {fileID: 992002769}
   - component: {fileID: 992002770}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Grass
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4641,7 +4360,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1025819936}
   - component: {fileID: 1025819937}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Grass (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4723,7 +4442,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1028407036}
   - component: {fileID: 1028407035}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rampdirt (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4986,7 +4705,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1100568994}
   - component: {fileID: 1100568995}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Grass (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5151,7 +4870,7 @@ GameObject:
   - component: {fileID: 1130826659}
   - component: {fileID: 1130826661}
   - component: {fileID: 1130826660}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rampgrass (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5260,7 +4979,7 @@ GameObject:
   - component: {fileID: 1188012720}
   - component: {fileID: 1188012722}
   - component: {fileID: 1188012721}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rampgrass (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5369,7 +5088,7 @@ GameObject:
   - component: {fileID: 1233376429}
   - component: {fileID: 1233376431}
   - component: {fileID: 1233376430}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Grass (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5478,7 +5197,7 @@ GameObject:
   - component: {fileID: 1233394162}
   - component: {fileID: 1233394161}
   - component: {fileID: 1233394160}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rampgrass (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5668,7 +5387,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1270984242}
   - component: {fileID: 1270984243}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: dirt (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5750,7 +5469,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1311047233}
   - component: {fileID: 1311047234}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rampdirt (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5929,7 +5648,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1324081272}
   - component: {fileID: 1324081273}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rampdirt (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6011,7 +5730,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1337062205}
   - component: {fileID: 1337062206}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rampdirt (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6093,7 +5812,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1340382487}
   - component: {fileID: 1340382488}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: dirt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6175,7 +5894,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1381294724}
   - component: {fileID: 1381294725}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: dirt (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6339,7 +6058,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1427115169}
   - component: {fileID: 1427115170}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: dirt (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6421,7 +6140,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1451466897}
   - component: {fileID: 1451466898}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rampdirt (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6602,7 +6321,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1523480507}
   - component: {fileID: 1523480508}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Grass (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6806,7 +6525,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1565088110}
   - component: {fileID: 1565088111}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Grass (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6889,7 +6608,7 @@ GameObject:
   - component: {fileID: 1636295282}
   - component: {fileID: 1636295284}
   - component: {fileID: 1636295283}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rampgrass (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7106,7 +6825,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1653065477}
   - component: {fileID: 1653065476}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rampdirt (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7188,7 +6907,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1657760167}
   - component: {fileID: 1657760168}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rampdirt (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7379,7 +7098,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1715813550}
   - component: {fileID: 1715813551}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Dirt (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7461,7 +7180,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1770938646}
   - component: {fileID: 1770938645}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rampdirt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7542,7 +7261,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1808445236}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Platform1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7582,7 +7301,7 @@ GameObject:
   - component: {fileID: 1876405751}
   - component: {fileID: 1876405753}
   - component: {fileID: 1876405752}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Grass (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7680,6 +7399,63 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &1886633061
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2703081452799076623, guid: f0628f88bb36c014e8f89ddf8eefdf12, type: 3}
+      propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 2703081452799076626, guid: f0628f88bb36c014e8f89ddf8eefdf12, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2703081452799076626, guid: f0628f88bb36c014e8f89ddf8eefdf12, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -65.77307
+      objectReference: {fileID: 0}
+    - target: {fileID: 2703081452799076626, guid: f0628f88bb36c014e8f89ddf8eefdf12, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.871482
+      objectReference: {fileID: 0}
+    - target: {fileID: 2703081452799076626, guid: f0628f88bb36c014e8f89ddf8eefdf12, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2703081452799076626, guid: f0628f88bb36c014e8f89ddf8eefdf12, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2703081452799076626, guid: f0628f88bb36c014e8f89ddf8eefdf12, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2703081452799076626, guid: f0628f88bb36c014e8f89ddf8eefdf12, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2703081452799076626, guid: f0628f88bb36c014e8f89ddf8eefdf12, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2703081452799076626, guid: f0628f88bb36c014e8f89ddf8eefdf12, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2703081452799076626, guid: f0628f88bb36c014e8f89ddf8eefdf12, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2703081452799076626, guid: f0628f88bb36c014e8f89ddf8eefdf12, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f0628f88bb36c014e8f89ddf8eefdf12, type: 3}
 --- !u!1 &1888570547
 GameObject:
   m_ObjectHideFlags: 0
@@ -7691,7 +7467,7 @@ GameObject:
   - component: {fileID: 1888570550}
   - component: {fileID: 1888570549}
   - component: {fileID: 1888570548}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rampgrass (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7800,7 +7576,7 @@ GameObject:
   - component: {fileID: 1910208704}
   - component: {fileID: 1910208706}
   - component: {fileID: 1910208705}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rampgrass (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7909,7 +7685,7 @@ GameObject:
   - component: {fileID: 1994542582}
   - component: {fileID: 1994542581}
   - component: {fileID: 1994542580}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rampgrass
   m_TagString: Untagged
   m_Icon: {fileID: 0}
