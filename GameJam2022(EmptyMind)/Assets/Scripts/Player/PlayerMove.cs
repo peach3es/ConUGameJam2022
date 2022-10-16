@@ -48,7 +48,7 @@ public class PlayerMove : MonoBehaviour
             animator.SetFloat("Speed", Mathf.Abs(horizontalInput));
         }
         
-        if (rb2D.velocity.x != 0 && isGrounded)
+        if (rb2D.velocity.x != 0 && isGrounded && Mathf.Abs(horizontalInput) > 0.05f)
         {
             if(!walkingSrc.isPlaying)
             {
