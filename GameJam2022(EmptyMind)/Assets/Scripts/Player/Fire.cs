@@ -59,11 +59,6 @@ public class Fire : MonoBehaviour
             playerRigidbody.AddForce(recoil * recoilStrength, ForceMode2D.Impulse);
 
             ps.Emit(7);
-            
-            
-            
-        
-            
         }
     }
 }

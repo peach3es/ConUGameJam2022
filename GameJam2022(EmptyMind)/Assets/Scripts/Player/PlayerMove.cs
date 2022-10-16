@@ -15,17 +15,23 @@ public class PlayerMove : MonoBehaviour
 
     bool jumping = false; 
 
+    bool isGrounded;
+    bool airborne;
+
     AudioSource walkingSrc;
     AudioSource jumpingSrc;
-    Rigidbody2D rb2D;
+    public Rigidbody2D rb2D;
+
+    public Transform groundChecker;
+
+    public float groundCheckRadius = 0.2f;
+    public LayerMask groundLayer;
     // Start is called before the first frame update
     void Start()
     {
         AudioSource[] allMyAudioSources = GetComponents<AudioSource>();
         walkingSrc = allMyAudioSources[0];
         jumpingSrc = allMyAudioSources[1];
-        rb2D = GetComponent<Rigidbody2D> ();
-
     }
 
     void Update()
@@ -34,22 +40,28 @@ public class PlayerMove : MonoBehaviour
         // ! MUST BE RAW to avoid slipping   
     
         horizontalInput = Input.GetAxisRaw("Horizontal");
-        animator.SetFloat("Speed", Mathf.Abs(horizontalInput));
-        rb2D.velocity = new Vector2(horizontalInput, rb2D.velocity.y);
 
-        if(rb2D.velocity.x!=0 )
+        isGrounded = Physics2D.OverlapCircle(groundChecker.position, groundCheckRadius, groundLayer.value);
+
+        if (isGrounded)
+        {
+            animator.SetFloat("Speed", Mathf.Abs(horizontalInput));
+        }
+        
+        if (rb2D.velocity.x != 0 && isGrounded)
         {
             if(!walkingSrc.isPlaying)
             {
                 walkingSrc.Play();
             }
         }
-        else{
+        else
+        {
             walkingSrc.Stop();
         }
         
         // Check for jumping
-        if (Input.GetButtonDown("Jump"))
+        if (Input.GetButtonDown("Jump") && isGrounded)
         {
             jumpingSrc.Play();
             jumping = true;
@@ -57,14 +69,25 @@ public class PlayerMove : MonoBehaviour
         }
     }
 
-    public void OnLanding(){
-        animator.SetBool("isJumping", false);
-    }
-
     // Update is called once per frame
     void FixedUpdate()
     {
+        // Move based on inputs
         controller.Move(horizontalInput * MovementSpeed * Time.fixedDeltaTime, false, jumping);
+        
+        // No contact with ground -> airborne
+        if (!isGrounded)
+        {
+            airborne = true;
+        }
+
+        // Was in the air, but just landed
+        if (airborne && isGrounded)
+        {
+            animator.SetBool("isJumping", false);
+            airborne = false;
+        }
+
         jumping = false;
     }
 }
