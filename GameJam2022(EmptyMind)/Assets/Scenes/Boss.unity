@@ -1328,6 +1328,10 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.6039216
       objectReference: {fileID: 0}
+    - target: {fileID: 4170206164304187086, guid: 47e70169a55c6c8409fa7bb99a5f7a35, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.83
+      objectReference: {fileID: 0}
     - target: {fileID: 4170206164304187087, guid: 47e70169a55c6c8409fa7bb99a5f7a35, type: 3}
       propertyPath: m_Color.b
       value: 0.40392157
@@ -1941,9 +1945,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 793255673092492777, guid: 0098b3f8d706689489e7e8bc52da34a0, type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1382302758256359734, guid: 0098b3f8d706689489e7e8bc52da34a0, type: 3}
       propertyPath: m_Name
       value: Floor (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1856805559151342198, guid: 0098b3f8d706689489e7e8bc52da34a0, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6029022155850835210, guid: 0098b3f8d706689489e7e8bc52da34a0, type: 3}
       propertyPath: m_RootOrder
@@ -2141,7 +2153,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 860377dcc290d894792553152a47a66d, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.6792453, g: 0.27233893, b: 0.27233893, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2572,9 +2584,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 793255673092492777, guid: 0098b3f8d706689489e7e8bc52da34a0, type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1382302758256359734, guid: 0098b3f8d706689489e7e8bc52da34a0, type: 3}
       propertyPath: m_Name
       value: Floor (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1856805559151342198, guid: 0098b3f8d706689489e7e8bc52da34a0, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6029022155850835210, guid: 0098b3f8d706689489e7e8bc52da34a0, type: 3}
       propertyPath: m_RootOrder
@@ -2738,9 +2758,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 793255673092492777, guid: 0098b3f8d706689489e7e8bc52da34a0, type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 793255673092492777, guid: 0098b3f8d706689489e7e8bc52da34a0, type: 3}
+      propertyPath: m_Color.b
+      value: 0.53999996
+      objectReference: {fileID: 0}
+    - target: {fileID: 793255673092492777, guid: 0098b3f8d706689489e7e8bc52da34a0, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 793255673092492777, guid: 0098b3f8d706689489e7e8bc52da34a0, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1382302758256359734, guid: 0098b3f8d706689489e7e8bc52da34a0, type: 3}
       propertyPath: m_Name
       value: Floor
+      objectReference: {fileID: 0}
+    - target: {fileID: 1856805559151342198, guid: 0098b3f8d706689489e7e8bc52da34a0, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6029022155850835210, guid: 0098b3f8d706689489e7e8bc52da34a0, type: 3}
       propertyPath: m_RootOrder
