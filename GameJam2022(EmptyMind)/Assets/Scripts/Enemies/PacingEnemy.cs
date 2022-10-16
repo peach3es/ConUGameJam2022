@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PacingEnemy : MonoBehaviour
+public class PacingEnemy : Enemy
 {
     public float patrolSpeed = 100;
     public bool isPatrolling;

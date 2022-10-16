@@ -6,9 +6,12 @@ public class Bullet : MonoBehaviour
 {
     public float bulletForce = 25;
 
+    public int damage = 30;
+
     public Rigidbody2D bulletRigidbody;
 
-    // Start is called before the first frame update
+    public GameObject impactEffect;
+
     void Start()
     {
         Vector3 gunPosition = Camera.main.WorldToScreenPoint(transform.position);
@@ -27,15 +30,18 @@ public class Bullet : MonoBehaviour
     }
 
     void OnTriggerEnter2D(Collider2D collider) {
-        Debug.Log(collider.name);
         if (!collider.CompareTag("Player"))
         {
-            Destroy(gameObject);
+            Enemy enemy = collider.GetComponent<Enemy>();
 
-            if (collider.CompareTag("Enemy"))
+            if (enemy != null)
             {
-                Destroy(collider.gameObject);
+                enemy.TakeDamage(damage);
             }
+
+            Instantiate(impactEffect, transform.position, transform.rotation);
+
+            Destroy(gameObject);
         }
     }
 }
