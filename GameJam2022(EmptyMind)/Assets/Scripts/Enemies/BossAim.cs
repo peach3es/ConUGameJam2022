@@ -23,10 +23,8 @@ public class BossAim : MonoBehaviour
         gunPosition = Camera.main.WorldToScreenPoint(rotatePoint.position);
         Vector3 targetPosition = Camera.main.WorldToScreenPoint(target.position);
         Vector3 lookDir = targetPosition - gunPosition;
-        
-        float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg;
 
-        Debug.Log(lookDir);
+        float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg;
 
         // Flip player if aiming on left side of character
         if (Mathf.Abs(angle) > 90.0f) 
@@ -38,7 +36,9 @@ public class BossAim : MonoBehaviour
                 // Flip player on x, gun on y
                 playerScale.x *= -1;
 
-                gunScale.Scale(new Vector3(-1, -1, 0));
+                gunScale.Set(Mathf.Abs(gunScale.x), -Mathf.Abs(gunScale.x), 0);
+
+                // gunScale.Scale(new Vector3(-1, -1, 0));
 
                 aimer.localScale = playerScale;
                 transform.localScale = gunScale;
@@ -47,12 +47,15 @@ public class BossAim : MonoBehaviour
         {
             Vector3 playerScale = aimer.localScale;
             Vector3 gunScale = transform.localScale;
+            // gunScale.Set(Mathf.Abs(gunScale.x), Mathf.Abs(gunScale.x), 0);
             if (playerScale.x < 0) 
             {
                 // Flip player on x, gun on y
                 playerScale.x *= -1;
 
-                gunScale.Scale(new Vector3(-1, -1, 0));
+                gunScale.Set(-Mathf.Abs(gunScale.x), Mathf.Abs(gunScale.x), 0);
+
+                // gunScale.Scale(new Vector3(-1, -1, 0));
 
                 aimer.localScale = playerScale;
                 transform.localScale = gunScale;

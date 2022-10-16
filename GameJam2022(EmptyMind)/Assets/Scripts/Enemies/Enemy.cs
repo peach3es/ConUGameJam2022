@@ -14,10 +14,14 @@ public class Enemy : MonoBehaviour
 
     public FlashEffect flashEffect;
 
+    public GameObject weapon;
+
     public void TakeDamage(int damage)
     {
         flashEffect.Flash(flashColor);
         
+        weapon.GetComponent<FlashEffect>().Flash(flashColor);
+
         health -= damage;
 
         if (health <= 0)

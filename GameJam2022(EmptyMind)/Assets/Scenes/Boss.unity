@@ -1277,6 +1277,7 @@ MonoBehaviour:
   target: {fileID: 23538895}
   xOffSet: 1
   yOffSet: 3.5
+  yMax: 1.5
 --- !u!1 &1300565886
 GameObject:
   m_ObjectHideFlags: 0

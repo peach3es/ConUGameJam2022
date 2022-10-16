@@ -4068,6 +4068,7 @@ MonoBehaviour:
   target: {fileID: 214826496}
   xOffSet: 1
   yOffSet: 5
+  yMax: 1.75
 --- !u!81 &970031316
 AudioListener:
   m_ObjectHideFlags: 0
