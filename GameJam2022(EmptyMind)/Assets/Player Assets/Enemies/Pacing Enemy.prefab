@@ -101,9 +101,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.03988192, y: 0.11800793}
   serializedVersion: 2
-  m_Radius: 1.4099998
+  m_Radius: 1.5723733
 --- !u!50 &990114648925417630
 Rigidbody2D:
   serializedVersion: 4
@@ -139,6 +139,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   flashColor: {r: 1, g: 0, b: 0, a: 1}
   health: 100
+  damage: 20
   deathEffect: {fileID: 4583813249293434344, guid: 33dd4c7ef6e6ca2408bc61832c70e3e4, type: 3}
   flashEffect: {fileID: 1860661819}
   patrolSpeed: -100

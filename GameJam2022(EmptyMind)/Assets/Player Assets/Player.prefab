@@ -99,6 +99,8 @@ GameObject:
   - component: {fileID: 2703081452799076629}
   - component: {fileID: 2703081452799076628}
   - component: {fileID: 2703081452799076630}
+  - component: {fileID: 4473456163601957765}
+  - component: {fileID: 1359110472161317197}
   - component: {fileID: -6044434632114757122}
   - component: {fileID: 6639794703913480659}
   m_Layer: 0
@@ -215,9 +217,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.01}
+  m_Offset: {x: -0.007624626, y: 0.08052728}
   serializedVersion: 2
-  m_Radius: 0.1510421
+  m_Radius: 0.21775723
 --- !u!50 &2703081452799076625
 Rigidbody2D:
   serializedVersion: 4
@@ -333,6 +335,36 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   crosshairTexture: {fileID: 2800000, guid: 0314a42bdcaa7a945a16820973b9d036, type: 3}
+--- !u!114 &4473456163601957765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2703081452799076623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1577fae010d7e404881280d2302c9a63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
+  flashColor: {r: 1, g: 1, b: 1, a: 1}
+  flashEffect: {fileID: 1359110472161317197}
+  weapon: {fileID: 2703081454017239566}
+--- !u!114 &1359110472161317197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2703081452799076623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75bb4566739c9ae468af42dc7bef3d02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flashMaterial: {fileID: 2100000, guid: 08029fbd2936e3c41a079b4e3708bb6c, type: 2}
+  duration: 0.125
 --- !u!82 &-6044434632114757122
 AudioSource:
   m_ObjectHideFlags: 0
@@ -449,7 +481,7 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
+  MinDistance: 1.0762458
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0
@@ -566,6 +598,7 @@ GameObject:
   - component: {fileID: 2703081454017239569}
   - component: {fileID: 2703081454017239568}
   - component: {fileID: 2703081454017239571}
+  - component: {fileID: 6952200620043075119}
   m_Layer: 0
   m_Name: pistol
   m_TagString: Untagged
@@ -655,6 +688,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 2703081452799076626}
   rotatePoint: {fileID: 2703081454843055121}
+--- !u!114 &6952200620043075119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2703081454017239566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75bb4566739c9ae468af42dc7bef3d02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flashMaterial: {fileID: 2100000, guid: 08029fbd2936e3c41a079b4e3708bb6c, type: 2}
+  duration: 0.125
 --- !u!1 &2703081454280704389
 GameObject:
   m_ObjectHideFlags: 0
