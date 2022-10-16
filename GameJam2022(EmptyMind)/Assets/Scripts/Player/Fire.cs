@@ -9,12 +9,14 @@ public class Fire : MonoBehaviour
     public Transform bulletOrigin;
 
     public Rigidbody2D playerRigidbody;
+
+    public ParticleSystem ps;
     // * Cooldowns
     public float timeBetweenShots;
     private bool canFire;
     private float timer;
-    public float recoilStrength = 10;
 
+    public float recoilStrength = 10;
     public float horizontalRecoilMultiplier = 1;
     public float verticalRecoilMultiplier = 1;
 
@@ -45,6 +47,8 @@ public class Fire : MonoBehaviour
             Vector3 recoil = new Vector3(-Mathf.Cos(angle) * horizontalRecoilMultiplier, -Mathf.Sin(angle) * verticalRecoilMultiplier, 0);
 
             playerRigidbody.AddForce(recoil * recoilStrength, ForceMode2D.Impulse);
+
+            ps.Emit(7);
         }
     }
 }
