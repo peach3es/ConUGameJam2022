@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 4845187935323982384}
   - component: {fileID: 4845187935323982385}
   - component: {fileID: -5700483569056819786}
+  - component: {fileID: 113503527}
   m_Layer: 8
   m_Name: Tracking Enemy
   m_TagString: Enemy
@@ -221,5 +222,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5935b4f4c4be53141bd223e376e6aca4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  flashColor: {r: 1, g: 0, b: 0, a: 1}
   health: 100
   deathEffect: {fileID: 4583813249293434344, guid: 33dd4c7ef6e6ca2408bc61832c70e3e4, type: 3}
+  flashEffect: {fileID: 113503527}
+--- !u!114 &113503527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4845187935323982386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75bb4566739c9ae468af42dc7bef3d02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flashMaterial: {fileID: 2100000, guid: 08029fbd2936e3c41a079b4e3708bb6c, type: 2}
+  duration: 0.125
