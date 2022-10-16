@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1520006622208942165}
   - component: {fileID: 990114648925417631}
   - component: {fileID: 1860661819}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Pacing Enemy
   m_TagString: Enemy
   m_Icon: {fileID: 0}
