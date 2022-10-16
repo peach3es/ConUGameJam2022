@@ -252,7 +252,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controller: {fileID: 2703081452799076629}
   animator: {fileID: 2703081452799076628}
-  MovementSpeed: 60
+  MovementSpeed: 130
 --- !u!114 &2703081452799076629
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -663,6 +663,10 @@ MonoBehaviour:
   playerRigidbody: {fileID: 2703081452799076625}
   ps: {fileID: 1048920704146994141}
   timeBetweenShots: 0.5
+  walkingSrc: {fileID: 0}
+  jumpingSrc: {fileID: 0}
+  GunSrc: {fileID: 0}
+  shootingclip: {fileID: 0}
   recoilStrength: 10
   horizontalRecoilMultiplier: 1.25
   verticalRecoilMultiplier: 1
@@ -5568,7 +5572,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: b1f10c9682100734fb2eaf705fbf13a6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 20db27f43a044fa40965dbe6ef33d78e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
