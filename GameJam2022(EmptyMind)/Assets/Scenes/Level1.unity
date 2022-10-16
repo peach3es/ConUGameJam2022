@@ -9448,6 +9448,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5566864784925144428, guid: f0628f88bb36c014e8f89ddf8eefdf12, type: 3}
+      propertyPath: timeBetweenShots
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5566864784925144428, guid: f0628f88bb36c014e8f89ddf8eefdf12, type: 3}
+      propertyPath: verticalRecoilMultiplier
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f0628f88bb36c014e8f89ddf8eefdf12, type: 3}
 --- !u!1 &1112899956
