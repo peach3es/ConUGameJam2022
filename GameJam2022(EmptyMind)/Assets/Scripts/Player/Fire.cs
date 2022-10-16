@@ -30,10 +30,6 @@ public class Fire : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        AudioSource[] allMyAudioSources = GetComponents<AudioSource>();
-        walkingSrc = allMyAudioSources[0];
-        jumpingSrc = allMyAudioSources[1];
-        GunSrc = allMyAudioSources[2];
 
         
     }
@@ -53,7 +49,7 @@ public class Fire : MonoBehaviour
 
         // Fire!
         if (Input.GetButtonDown("Fire1") && canFire) {
-            GunSrc.PlayOneShot(shootingclip);
+            //GunSrc.PlayOneShot(shootingclip);
             canFire = false;
             Instantiate(bullet, bulletOrigin.position, bulletOrigin.rotation);
 
