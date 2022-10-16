@@ -8,10 +8,12 @@ public class Fire : MonoBehaviour
 
     public Transform bulletOrigin;
 
+    public Rigidbody2D rb;
     // * Cooldowns
     public float timeBetweenShots;
     private bool canFire;
     private float timer;
+    public float recoilStrength;
 
     // Start is called before the first frame update
     void Start()
@@ -35,6 +37,12 @@ public class Fire : MonoBehaviour
         if (Input.GetButtonDown("Fire1") && canFire) {
             canFire = false;
             Instantiate(bullet, bulletOrigin.position, bulletOrigin.rotation);
+
+            Transform recoilDir = bulletOrigin.rotation * -1;
+            float angle = recoilDir.eulerAngles.z * Mathf.Deg2Rad;
+            Vector3 recoil = new Vector3(Mathf.Cos(angle), Mathf.Sin(angle), 0);
+
+            rb.AddForce(recoil * recoilStrength, ForceMode2D.Impulse);
         }
     }
 }
