@@ -561,7 +561,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bullet: {fileID: 5239923011814710781, guid: 088196b3f7428754ea006efbf66d0234, type: 3}
   bulletOrigin: {fileID: 5459776934414738025}
+  playerRigidbody: {fileID: 2703081452799076625}
   timeBetweenShots: 0.2
+  recoilStrength: 10
+  horizontalRecoilMultiplier: 1.25
+  verticalRecoilMultiplier: 0.2
 --- !u!1 &7475133075256962824
 GameObject:
   m_ObjectHideFlags: 0
