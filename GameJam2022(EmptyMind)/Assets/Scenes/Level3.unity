@@ -848,7 +848,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 0.589
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -9354,7 +9354,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 990114648925417627, guid: 01b86bc92a1df134dad12df70a086f31, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -16.704737
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 990114648925417627, guid: 01b86bc92a1df134dad12df70a086f31, type: 3}
       propertyPath: m_LocalRotation.w
