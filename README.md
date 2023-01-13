@@ -14,3 +14,5 @@ Most of our art assets were taken and modified from the Unity asset store, but a
 
 ## Synopsis 
 You wake up as a gun with legs, remembering only that your loved one was taken from you. You seek to find answers to your questions while exacting revenge, but your actions may lead to something more devastating... 
+
+Please feel free to visit our itch.io page here!: https://marbl3es.itch.io/gunhead
